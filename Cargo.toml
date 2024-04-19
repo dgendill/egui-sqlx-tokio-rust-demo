@@ -1,0 +1,18 @@
+[package]
+name = "egui-sqlx-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = "0.27.0"
+eframe = { version = "0.27.0", default-features = false, features = [
+    # "accesskit",     # Make egui comptaible with screen readers. NOTE: adds a lot of dependencies.
+    "default_fonts", # Embed the default egui fonts.
+    "glow",          # Use the glow rendering backend. Alternative: "wgpu".
+    "persistence",   # Enable restoring app state when restarting the app.
+] }
+sqlx = { version = "0.7", features = [ "runtime-tokio", "sqlite" ] }
+tokio = { version = "1.37.0", features = [ "macros", "rt-multi-thread" ] }
+async-once-cell = "0.5.3"
