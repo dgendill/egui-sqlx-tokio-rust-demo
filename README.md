@@ -4,6 +4,8 @@ This repo contains my own example of using egui, sqlx, and tokio in a native des
 
 To run the demo make sure you have rust and cargo installed. Then run `cargo run` in the project root.
 
+![](demo.mp4)
+
 All of the code is in a single file so it's easier to reason about. In a larger application you would want to break the parts into modules. I will explain that later. For now these are the general parts in main.rs...
 
 # Application Singleton

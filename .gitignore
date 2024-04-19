@@ -1,4 +1,4 @@
 /target
-tickets.db
-tickets.db-shm
-tickets.db-wal
+items.db
+items.db-shm
+items.db-wal
