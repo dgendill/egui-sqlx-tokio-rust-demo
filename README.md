@@ -1,6 +1,6 @@
 # egui, sqlx, tokio example
 
-This repo contains my own example of using egui, sqlx, and tokio in a native desktop app. It's intended to further demonstrate the code pattern proposed here in this egui ticket: https://github.com/emilk/egui/discussions/521#discussioncomment-3462382.
+This repo contains my own example of egui, sqlx, and tokio in a native desktop app. It's intended to further demonstrate the code pattern proposed in this egui ticket: https://github.com/emilk/egui/discussions/521#discussioncomment-3462382.
 
 To run the demo make sure you have rust and cargo installed. Then run `cargo run` in the project root.
 
